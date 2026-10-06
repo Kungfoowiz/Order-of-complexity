@@ -1,4 +1,4 @@
-**Order of complexity or O(n)** measures performance and scale, and it calculates how much execution time or memory usage explodes as data input (\\(n\\)) grows.  
+**Order of complexity or O(n)** measures performance and scale, and it calculates how much execution time or memory usage explodes as data input **n** grows.  
 
 
 **Cyclomatic complexity** measures code structure and testability, and it counts the number of linearly independent paths thru your code, driven by if, loop, and switch logic. It shows how hard it is for you to understand the code, and how many unit tests you will need to cover every scenario.
@@ -7,7 +7,7 @@
 
 ### Order of complexity O(n)
 
-|Complexity|Self-Correction \& Characteristics|Pattern / Flow Example|
+| Complexity | Description | Example code |
 |-|-|-|
 |**O(1)** Constant 🔆 **Excellent**|• Always does the same amount of work. <br />• No matter how large the input grows, does the execution time stay exactly the same?|var item = items\[0]|
 |**O(log n)** Logarithmic ✅ **Very good**|• Keeps throwing away half the remaining work. <br />• Am I cutting the remaining search space or workload roughly in half each iteration?|while (count > 1) <br />  count /= 2|
